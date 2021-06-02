@@ -12,5 +12,5 @@ for item in list_dir:
 os.chdir('Installer')
 os.system('@echo off')
 os.system('@chcp 65001')
-os.system('''setup.exe --uninstall --system-level --verbose-logging 
-    --force-uninstall''')
+os.system(
+    '''setup.exe --uninstall --system-level --verbose-logging --force-uninstall''')
