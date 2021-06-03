@@ -1,1 +1,6 @@
 start.bat
+logs.log
+build
+__pycache__
+dist
+.venv
